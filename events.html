@@ -22,8 +22,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<script type="text/javascript">
+		function save(){
+			var s=document.getElementById("Events").innerHTML;
+			console.log(Events)
+			var user=document.getElementById("user").value;
+			console.log(user)
+		}
+	</script>
 </head>
 <body>
-	
+	<input id="user"/>
+	<h1 id="Events" class="main">Events in javascript</h1>
+	<p id="text">I Love India</p>
+	<button onclick="save()">Submit</button>
 </body>
 </html>
